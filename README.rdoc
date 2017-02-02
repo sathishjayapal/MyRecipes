@@ -1,31 +1,31 @@
 == README
 
-Ruby Version is 2.2.2
-System dependencies: Install MySql.
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+Ruby Version is 2.2.2
 
 * System dependencies
+Install MySql. Make sure if you use Ruby mine the default rails version has an issue with MySql.
+Macs are bit weird how mySql install in done. Stackoverflow that.
 
 * Configuration
 
+Heroku has to be configured to host the application.
+I have RubyMine as an IDE for development. There are homebrew install packages that I have my managing my ruby and Gemset.
+Github account was needed to push my code to share.
+
 * Database creation
+
+Nothing special here yet. Regular db:init and migrate are the only dependencies I have yet.
+
 
 * Database initialization
 
 * How to run the test suite
 
+I don't believe in Test driven development. I might create some simple tests for my critical tasks.
+
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
