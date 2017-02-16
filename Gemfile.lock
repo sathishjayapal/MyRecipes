@@ -158,6 +158,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bootstrap-sass (~> 3.3.6)
+  bundler
   google-webfonts-rails
   jbuilder (~> 2.0)
   jquery-rails
