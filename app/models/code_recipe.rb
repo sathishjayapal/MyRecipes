@@ -1,4 +1,5 @@
 class CodeRecipe < ActiveRecord::Base
+  belongs_to :recipe_developer
   validates :name, presence:true, length: {minimum: 5, maximum: 20}
   validates :summary, presence: true,length: {minimum: 10, maximum: 60}
   validates :description, presence: true, length: {minimum: 10}
