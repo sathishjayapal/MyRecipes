@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   get '/home', to: 'pages#home'
   root 'pages#home'
   # get '/developer_recipes', to: 'developer_recipes#index'
@@ -9,4 +10,5 @@ Rails.application.routes.draw do
   # get '/developer_recipes/:id', to: 'developer_recipes#show', as: 'developer_recipe'
   # delete '/developer_recipes/:id', to: 'developer_recipes#destroy'
   resources :developer_recipes
+  resources :code_recipes
 end

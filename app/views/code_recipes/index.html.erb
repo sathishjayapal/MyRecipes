@@ -1,0 +1,19 @@
+<h1>Sathish Jayapal Code Recipes</h1>
+</hr>
+<% @code_recipes.each do |code_recipe| %>
+    <div class="row">
+      <div class="col-md-2">
+        <section class="panel-info">
+
+        </section>
+      </div>
+      <div class="col-lg-8 well">
+        <section class="panel-info">
+          <h4>
+            <%= link_to code_recipe.name, " " %></h4>
+        </section>
+        <p><%= code_recipe.summary %></p>
+        <p><span class="small"><%= time_ago_in_words(code_recipe.created_at) %> ago</span></p>
+      </div>
+    </div>
+<% end %>
