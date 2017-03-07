@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   # delete '/developer_recipes/:id', to: 'developer_recipes#destroy'
   resources :developer_recipes
   resources :code_recipes
+
 end
